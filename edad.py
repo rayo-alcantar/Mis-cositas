@@ -1,0 +1,5 @@
+name=(input("Dame tu nombre, porfavor"))
+year=int(input("En que año naciste?"))
+yearact=int(input("¿Qué año es este?"))
+edad=(yearact-year)
+print("Bien! Tellamas ", name, "y tienes ", edad, "años! ¿Ves? Se más de ti de lo que crees.")

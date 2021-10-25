@@ -1,0 +1,10 @@
+# print(type('7'))
+# print(type(7))
+# print(type(7.7))
+
+print(isinstance('7', str))
+print(isinstance(7, int))
+print(isinstance(7.2, float))
+print(isinstance('2', int))
+print(isinstance(2.1, str))
+print(isinstance("asdfdsfas", float))

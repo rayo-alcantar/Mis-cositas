@@ -1,0 +1,13 @@
+
+ejecutar código de python en notepad
+f5, luego tienes las siguientes posibilidades:
+ejecutar el código en la consola de python directamente, manteniendo
+abierta la consola una vez finalizada la ejecución del código:
+"C:\Users\Usuario\AppData\Local\Programs\Python\Python36-32\python.exe"
+-i "$(FULL_CURRENT_PATH)"
+ejecutar el código abriendo el CMD:
+ cmd /K python "$(FULL_CURRENT_PATH)"
+cualquiera de esos comandos tienes que pegarlo en el cuadro de edición
+que aparece cuando pulsas f5.
+Luego presionamos guardar y se nos abre el cuadro de dialogo donde seleccionaremos la tecla rápida (por ejemplo f6), y le asignamos un nombre (python).
+  
